@@ -55,6 +55,34 @@ namespace WunsZ
             Grid.SetColumnSpan(scianka2.Rect, scianka2.Width);
             Grid.SetRowSpan(scianka2.Rect, scianka2.Height);
             _scianka.Add(scianka2);
+            Przeszkoda scianka3 = new Przeszkoda(0, 0, 1, 60);
+            grid.Children.Add(scianka3.Rect);
+            Grid.SetColumn(scianka3.Rect, scianka3.X);
+            Grid.SetRow(scianka3.Rect, scianka3.Y);
+            Grid.SetColumnSpan(scianka3.Rect, scianka3.Width);
+            Grid.SetRowSpan(scianka3.Rect, scianka3.Height);
+            _scianka.Add(scianka3);
+            Przeszkoda scianka4 = new Przeszkoda(0, 0, 70, 1);
+            grid.Children.Add(scianka4.Rect);
+            Grid.SetColumn(scianka4.Rect, scianka4.X);
+            Grid.SetRow(scianka4.Rect, scianka4.Y);
+            Grid.SetColumnSpan(scianka4.Rect, scianka4.Width);
+            Grid.SetRowSpan(scianka4.Rect, scianka4.Height);
+            _scianka.Add(scianka4);
+            Przeszkoda scianka5 = new Przeszkoda(69, 0 ,1, 60);
+            grid.Children.Add(scianka5.Rect);
+            Grid.SetColumn(scianka5.Rect, scianka5.X);
+            Grid.SetRow(scianka5.Rect, scianka5.Y);
+            Grid.SetColumnSpan(scianka5.Rect, scianka5.Width);
+            Grid.SetRowSpan(scianka5.Rect, scianka5.Height);
+            _scianka.Add(scianka5);
+            Przeszkoda scianka6 = new Przeszkoda(0, 59, 70, 1);
+            grid.Children.Add(scianka6.Rect);
+            Grid.SetColumn(scianka6.Rect, scianka6.X);
+            Grid.SetRow(scianka6.Rect, scianka6.Y);
+            Grid.SetColumnSpan(scianka6.Rect, scianka6.Width);
+            Grid.SetRowSpan(scianka6.Rect, scianka6.Height);
+            _scianka.Add(scianka6);
         }
             private void RedrawFood()
         {
